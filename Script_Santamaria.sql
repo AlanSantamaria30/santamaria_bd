@@ -6,7 +6,7 @@ CREATE TABLE person (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(255),
     apellido VARCHAR(255),
-    fechaNacimiento DATE,
+    fecha_nacimiento DATE,
     puesto VARCHAR(255),
     sueldo DECIMAL(10, 2)
 );
